@@ -1,0 +1,48 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+<!--Link game.js and player.js-->
+<script src="js/game.js"></script>
+<script src="js/player.js"></script>
+
+   
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+
+<!--Add database config here below-->
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-database.js"></script>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+     // import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.1/firebase-app.js";
+      //import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.1/firebase-database.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+        const firebaseConfig = {
+  apiKey: "AIzaSyBucacrElSJFOVOjy6z7qXqrzPlZWzdpi8",
+  authDomain: "c-40-4b1e5.firebaseapp.com",
+  databaseURL: "https://c-40-4b1e5-default-rtdb.firebaseio.com",
+  projectId: "c-40-4b1e5",
+  storageBucket: "c-40-4b1e5.appspot.com",
+  messagingSenderId: "787547018908",
+  appId: "1:787547018908:web:3d5adc36825c5ba220bf59"
+
+  };
+    
+      // Initialize Firebase
+       firebase.initializeApp(firebaseConfig);
+    
+  
+    </script>
+    
+   
+  </head>
+  <body>
+    
+    <script src="./sketch.js"></script>
+  </body>
+</html>
